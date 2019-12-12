@@ -15,7 +15,7 @@
     /**
      * Cart 购物车商品管理
      * @constructor
-     * @param {Object} obj 购物车容器对象
+     * @param {Object} obj 购物车容器对象123
      */
     function Cart(obj) {
         this.items =[];
