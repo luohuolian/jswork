@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>罗火炼的网页版2048游戏</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="game" class="game">
+        <div class="game-score">
+            <input class="game-score" size="15" id="user" value="07190832罗火炼">的分数：<span id="game_score">0</span>
+        </div>
+        <div id="game_container" class="game-container">
+            <div id="game_over" class="game-over game-hide">
+                <div class="game-over-info">
+                    <div id="game_over_info"></div>
+                    <span id="game_restart">重新开始</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../jquery.js"></script>
+    <script src="Game2048.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
